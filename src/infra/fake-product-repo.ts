@@ -3,7 +3,7 @@ import { ProductRepo } from '../domain/product-repo';
 
 /**
  * Fake in-memory implementation of ProductRepo for tests and local dev.
- * Not safe for concurrency across processes — intended as a fake.
+ * Not safe for concurrency across processes — intended as a fake..
  */
 export class FakeProductRepo implements ProductRepo {
   private store: Map<string, Product> = new Map();
